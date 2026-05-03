@@ -1,4 +1,4 @@
-DeepFake Detection (Image & Video)
+#DeepFake Detection (Image & Video)
 
 An end-to-end deep learning system to detect DeepFake media in both images and videos using computer vision and deep learning techniques.
 
