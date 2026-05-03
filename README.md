@@ -9,6 +9,8 @@ An end-to-end deep learning system to detect DeepFake media in both images and v
 ✅ Real / Fake prediction
 📊 Confidence score
 🎥 Frame-by-frame video analysis
+
+
 🧠 Problem Statement
 
 DeepFakes are AI-generated media that manipulate faces, voices, or actions, posing serious risks such as:
@@ -28,9 +30,11 @@ Streamlit (for UI)
 
 
 🧠 Model Architecture
+
 🔹 Image Detection
 CNN-based model (EfficientNet)
 Detects spatial inconsistencies in facial regions
+
 🔹 Video Detection
 Frame extraction using OpenCV
 Face detection using MTCNN
@@ -39,26 +43,26 @@ Aggregated results for final classification
 
 
 📁 Project Structure
-DeepShield-AI/
-│
-├── app/
-│   └── app.py                # Streamlit UI
-│
-├── src/
-│   ├── image_model.py       # CNN model
-│   ├── video_model.py       # Video processing
-│   ├── preprocessing.py     # Image preprocessing
-│   ├── face_detector.py     # Face extraction
-│   └── utils.py             # Helper functions
-│
-├── models/                  # Saved models
-├── data/                    # Dataset (not included)
-├── outputs/                 # Graphs & logs
-├── notebooks/               # Experiments
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
+DeepShield-AI/ <br>
+│<br>
+├── app/<br>
+│   └── app.py                # Streamlit UI<br>
+│<br>
+├── src/<br>
+│   ├── image_model.py       # CNN model<br>
+│   ├── video_model.py       # Video processing<br>
+│   ├── preprocessing.py     # Image preprocessing<br>
+│   ├── face_detector.py     # Face extraction<br>
+│   └── utils.py             # Helper functions<br>
+│<br>
+├── models/                  # Saved models<br>
+├── data/                    # Dataset (not included)<br>
+├── outputs/                 # Graphs & logs<br>
+├── notebooks/               # Experiments<br>
+│<br>
+├── requirements.txt<br>
+├── README.md<br>
+└── .gitignore<br>
 
 
 🖥️ Features
